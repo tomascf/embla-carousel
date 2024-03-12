@@ -30,9 +30,9 @@ export function Animations(
   let animationFrame = 0
 
   function init(): void {
-    documentVisibleHandler.add(ownerDocument, 'visibilitychange', () => {
+    /*documentVisibleHandler.add(ownerDocument, 'visibilitychange', () => {
       if (ownerDocument.hidden) reset()
-    })
+    })*/
   }
 
   function destroy(): void {
